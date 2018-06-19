@@ -1,2 +1,68 @@
-# cell-sheet-PIV
-Analysis of Image cross correlation velocimetry/Particle image velocimetry performed on time lapse microscopy of cell sheets
+# PIV Analysis of Cell Monolayers
+
+Zach Colburn
+May 2, 2018
+
+Windows 10, 64-bit.
+R 3.5.0, RStudio 1.1.383
+Windows subsystem for linux: Ubuntu 16.04.3 LTS
+ImageJ 1.52a, Java 1.8.0_66 (64-bit)
+PIV plugin: https://sites.google.com/site/qingzongtseng/piv
+
+# Overview
+
+
+# Raw data
+Raw data for each experiment should be exported into its own folder within the 'Data' folder and structured as follows. Note that folder names should not include periods. Within an experiment folder, there can be any number of folders specifying a particular field of view. The prefix of each of these folders is important. Prefixes can come in two forms:
+
+* CellType-...
+* CellType1_CellType1Quantity_to_CellType2_CellType2Quantity-...
+
+
+Within each of these folders, there should be (optionally a MetaData folder) files labeled with a suffix of the form:
+
+* ..._t00_ch00.tif
+
+Here, the _t00 references the first frame of the experiment (time 0) and ch00 references the first channel captured.
+
+# Step 1A: Set up the PIV analysis
+To set up the PIV analysis, execute the script 1_PIV.R (ensure that you set the variable *fijiPath* equal to the path to the ImageJ/Fiji executable as accessed from the Windows Subsystem for Linux). This script will walk you through the set up. It requires a number of input parameters, including the folder containing the data for the experiment being processed and the output folder, the latter of which must be created in the 'Output' directory before analysis. This script generates a number of files, which are stored in the corresponding experiment folder of the output directory:
+
+* Experiment.txt: The parameters specified during processing.
+* pgf_*.txt: pgf_1.txt, pgf_2.txt, etc. contain the paths to the data folders that are to be analyzed. Each _* indicates a different thread on which the analysis will be run.
+
+# Step 1B: Perform PIV
+To perform PIV, ensure that the Windows Subsystem for Linux is on your computer. Next, navigate to the experiment folder in the output folder that you specified above. In the address bar type 'bash' and hit enter. Next, type './fiji_runner.sh' (without quotes) and hit enter. This will being the PIV analysis. The log files log_*.txt will be generated, one for each thread. The analysis is performed on an image-by-image basis, but these results are merged into individual files in the final step. The files generated include:
+
+* raw.tif: The two channels specified are merged across time points into a single tif file.
+* PIV_vec.tif: A video depicting the displacement vectors determined during the PIV analysis.
+* PIV_mag.tif: A video depicting the magnitudes of those vectors.
+* PIV_scale.tif: An image indicating the scale used to depict the PIV data.
+* PIV.txt: A text file containing the PIV results for all the time points analyzed.
+
+# Step 2: Process the PIV results
+To process the PIV results, run the script 2_ProcessSampling.R. This script will ask for input parameters. These parameters will be exported to the Processing.txt file. Prior to processing, the images must be converted to a different form, the log for this step, which is performed automatically, is ProcessingImageLog.txt. As this step executes, the file img_raw.rds is saved to each folder in the output directory's experiment folder. As the main processing step occurs, details are written to the file ProcessingLog.txt. Finally, after processing, the img_raw.rds files are deleted.
+
+# Step 3: Summarize the PIV results
+Even after reducing the volume of data processed, by selecting a subset of the data (paramters specified in step 1), it is likely that there is still far too much data to easily manage. The volume of data is reduced by summarizing the data for each field of view assessed. To summarize the data run the script 3_SummarizeData.R. This generates the file SummarizeLog.txt. To each folder within the corresponding Output/ExperimentFolder directory, the files s_out_w_t.rds and s_out_wo_t.rds are written.
+
+* s_out_w_t.rds: Summarized data that retains information about the central peg's time point.
+* s_out_wo_t.rds: Summarized data that does not retain information about the central peg's time point.
+
+# Step 4: Merge the summarized data
+Summarized data for an individual experiment is merged with the script 4_MergeSummarizedData.R. This results in the files awot.rds (analysis without time) and awt.rds (analysis with time), as well as their corresponding log files, MergeLog_wo_t.txt and MergeLog_w_t.txt.
+
+# Step 5: Merge data from multiple experiments
+Data from multiple experiments is merged using the script 5_MergeExperiments.R. It creates files of the same name as those created in step 4, but places them in the Cache folder.
+
+# Step 6: Analyze the data
+Analysis in the Scripts folder can be called by running the script 6_Analyze.R. The output generated by analysis scripts should be sent to the 'Results' directory.
+
+
+# Additional information
+The 'Scripts' folder contains a number of scripts.
+
+* 6_Analyze_wo_time.R: A script to analyze the summarized results that disregard the central peg's time point. This will need to be modified to match the experimental conditions. Not doing so will result in an error.
+* MR.ijm: The ImageJ macro file used to perform the PIV analysis. This analysis calls the PIV plugin.
+* ReadExperimentFile.R: Contains a function used to read in and properly format Experiment.txt files.
+* ReadProcessingFile.R: Contains a function used to read in and properly format Processing.txt.

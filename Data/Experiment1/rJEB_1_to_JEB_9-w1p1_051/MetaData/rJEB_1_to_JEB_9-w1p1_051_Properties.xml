@@ -1,0 +1,376 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="rJEB_1_to_JEB_9-w1p1_051_Properties_WFIP_HWS3.xsl"?>
+<Data>
+  <Image>
+    <Attachment Name="PreviewMarker" Application="LAS AF" IsPreviewImage="0" />
+    <Attachment Name="Coordinate" Application="LAS AF">
+      <Coordinate Name="ChamberU" Value="0" />
+      <Coordinate Name="ChamberV" Value="0" />
+      <Coordinate Name="FieldX" Value="50" />
+    </Attachment>
+    <ImageDescription>
+      <Name>rJEB_1_to_JEB_9-w1p1_051</Name>
+      <Size>416.93 MB</Size>
+      <UniqueID>63d526a0-64f1-11e8-b9fc-2c44fd0c9d66</UniqueID>
+      <Channels>
+        <ChannelDescription DataType="0" ChannelTag="0" Resolution="8" NameOfMeasuredQuantity="" Min="0.000000e+000" Max="2.550000e+002" Unit="" LUTName="Gray" IsLUTInverted="0" BytesInc="0" BitInc="0" OpticalResolutionXY="1.118 µm" OpticalResolutionZ="6.111 µm">
+        </ChannelDescription>
+        <ChannelDescription DataType="0" ChannelTag="0" Resolution="8" NameOfMeasuredQuantity="" Min="0.000000e+000" Max="2.550000e+002" Unit="" LUTName="Green" IsLUTInverted="0" BytesInc="1447680" BitInc="0" OpticalResolutionXY="1.118 µm" OpticalResolutionZ="6.111 µm">
+        </ChannelDescription>
+      </Channels>
+      <Dimensions>
+        <DimensionDescription DimID="X" NumberOfElements="1392" Origin="0" Length="1281.71" Unit="µm" BitInc="0" BytesInc="1" UnitOrigin="µm" EndPosition="1281.71" UnitEndPosition="µm" LogicalUnit="pixels" Voxel="0.921">
+        </DimensionDescription>
+        <DimensionDescription DimID="Y" NumberOfElements="1040" Origin="0" Length="957.36" Unit="µm" BitInc="0" BytesInc="1392" UnitOrigin="µm" EndPosition="957.36" UnitEndPosition="µm" LogicalUnit="pixels" Voxel="0.921">
+        </DimensionDescription>
+        <DimensionDescription DimID="T" NumberOfElements="144" Origin="0 s" Length="11h54m58.920 s" Unit="" BitInc="0" BytesInc="2895360" UnitOrigin="" EndPosition="11h54m58.920 s" UnitEndPosition="" LogicalUnit="repeats" Voxel="4m59.992 s">
+        </DimensionDescription>
+      </Dimensions>
+      <FileLocation>C:\Users\Jonathan\Lab\Susan\CMAs\20171212-CMA_Analysis\Data\lif_files\20180531-JEB,rJEB Scratch,PIV.lif</FileLocation>
+      <StartTime>5/31/2018 9:45:02 AM.202</StartTime>
+      <EndTime>5/31/2018 9:40:02 PM.439</EndTime>
+      <FrameCount>288 (2 channels, 144 frames)</FrameCount>
+      <NumberOfChannels>2</NumberOfChannels>
+      <FluoDescription>
+        <FluoDescriptionRecord Identifier="Channel 0" Name="new 1" Contrast="none" Excitation="" Emission="0" Cube="Ana_TL" Intensity="40" />
+        <FluoDescriptionRecord Identifier="Channel 1" Name="new 2" Contrast="none" Excitation="" Emission="0" Cube="GFP" Intensity="5" />
+      </FluoDescription>
+    </ImageDescription>
+    <TimeStampList NumberOfTimeStamps="288">1d3f8feb857cda0 1d3f8feb921fb70 1d3f8ff6b74c500 1d3f8ff6c3ea4b0 1d3f9001e214750 1d3f9001eed22d0 1d3f900d0bb04f0 1d3f900d18c5eb0 1d3f9018374a6a0 1d3f901843ead60 1d3f90236c2e730 1d3f902378e4d80 1d3f902e8c323f0 1d3f902e98d03a0 1d3f9039be94310 1d3f9039cb2fbb0 1d3f9044e31fa80 1d3f9044efc0140 1d3f905012d1200 1d3f90501f7dc10 1d3f905b3eca720 1d3f905b4b72310 1d3f90666b93490 1d3f9066783d790 1d3f90719793ee0 1d3f9071a42f780 1d3f907cc2ffa60 1d3f907ccfac470 1d3f9087f05fdb0 1d3f9087fd02b80 1d3f90931e6d670 1d3f90932b0dd30 1d3f909e4f88330 1d3f909e5c32630 1d3f90a978bb120 1d3f90a985590d0 1d3f90b4a798230 1d3f90b4b43fe20 1d3f90bfd34aa80 1d3f90bfdff9ba0 1d3f90caffc2ee0 1d3f90cb0c72000 1d3f90d62a6dc70 1d3f90d6370bc20 1d3f90e15960d10 1d3f90e16603ae0 1d3f90ec8a9b5a0 1d3f90ec9743190 1d3f90f7b2e1680 1d3f90f7bf86b60 1d3f9102e286ab0 1d3f9102ef2bf90 1d3f910e1021780 1d3f910e1cc6c60 1d3f91193b59eb0 1d3f911948041b0 1d3f912465e7780 1d3f9124728f370 1d3f912f9395cd0 1d3f912fa0426e0 1d3f913ac495be0 1d3f913ad13d7d0 1d3f9145ee69bf0 1d3f9145fb13ef0 1d3f91511fb2ee0 1d3f91512c535a0 1d3f915c48e5cd0 1d3f915c558d8c0 1d3f916776c7670 1d3f91678362f10 1d3f9172a29e8b0 1d3f9172af3a150 1d3f917dcd113d0 1d3f917dd9b1a90 1d3f9188fb288d0 1d3f918907d2bd0 1d3f919429cd770 1d3f91943675360 1d3f919f59cd0f0 1d3f919f6674ce0 1d3f91aa838d880 1d3f91aa9030650 1d3f91b5b125e40 1d3f91b5bdcb320 1d3f91c0de5a270 1d3f91c0eafa930 1d3f91cc0ac3c70 1d3f91cc1766a40 1d3f91d7372af60 1d3f91d743d0440 1d3f91e26547280 1d3f91e271eee70 1d3f91ed96b0140 1d3f91eda355620 1d3f91f8c092bb0 1d3f91f8cd35980 1d3f9203f037fe0 1d3f9203fcdfbd0 1d3f920f1a6da70 1d3f920f2712f50 1d3f921a4740420 1d3f921a53ea720 1d3f922573e6eb0 1d3f92258087570 1d3f92309ea06a0 1d3f9230ab3e650 1d3f923bd017fc0 1d3f923bdcbfbb0 1d3f9246fa77260 1d3f92470726380 1d3f925228bcd90 1d3f92523567090 1d3f925d557e5d0 1d3f925d621c580 1d3f926882fe4f0 1d3f92688f9c4a0 1d3f9273ae010c0 1d3f9273baa1780 1d3f927ed95bad0 1d3f927ee605dd0 1d3f928a06862c0 1d3f928a13305c0 1d3f929536a3100 1d3f9295434fb10 1d3f92a0664fa60 1d3f92a072eb300 1d3f92ab8fa4b30 1d3f92ab9c403d0 1d3f92b6bd53080 1d3f92b6c9f5e50 1d3f92c1ebb3960 1d3f92c1f85b550 1d3f92cd15ce640 1d3f92cd2273b20 1d3f92d84218470 1d3f92d84ebd950 1d3f92e36f8c040 1d3f92e37c38a50 1d3f92eea114ad0 1d3f92eeadb9fb0 1d3f92f9cbe4250 1d3f92f9d890c60 1d3f9304fbfe980 1d3f930508ab390 1d3f931024757a0 1d3f9310311ac80 1d3f931b531a640 1d3f931b5fb85f0 1d3f93267f029f0 1d3f93268baf400 1d3f9331aa0f200 1d3f9331b6b6df0 1d3f933cda1fcf0 1d3f933ce6bb590 1d3f934806ba430 1d3f93481355cd0 1d3f935336e35c0 1d3f93534381570 1d3f935e610cd00 1d3f935e6dad3c0 1d3f93698db3790 1d3f93699a601a0 1d3f9374b8f8210 1d3f9374c59fe00 1d3f937fe52e7c0 1d3f937ff1db1d0 1d3f938b12d57e0 1d3f938b1f7fae0 1d3f939641b28f0 1d3f93964e57dd0 1d3f93a172d71f0 1d3f93a17f814f0 1d3f93ac98d81f0 1d3f93aca57d6d0 1d3f93b7c920f50 1d3f93b7d5c6430 1d3f93c2f7a3b10 1d3f93c304468e0 1d3f93ce21d4780 1d3f93ce2e70020 1d3f93d94cf9630 1d3f93d95994ed0 1d3f93e47cb49f0 1d3f93e4894db80 1d3f93efae3d480 1d3f93efbadb430 1d3f93fad6ec510 1d3f93fae3919f0 1d3f94060525cf0 1d3f940611cd8e0 1d3f941130f32f0 1d3f94113d9d5f0 1d3f941c5c5c760 1d3f941c6904350 1d3f942789d0330 1d3f942796709f0 1d3f9432b676dc0 1d3f9432c312660 1d3f943de47d150 1d3f943df1189f0 1d3f9449102d290 1d3f94491cc8b30 1d3f94544219eb0 1d3f94544ec41b0 1d3f945f6b62c30 1d3f945f780a820 1d3f946a9a97b80 1d3f946aa735b30 1d3f9475c4c39d0 1d3f9475d164090 1d3f9480f27bb60 1d3f9480ff25e60 1d3f948c1daa650 1d3f948c2a4d420 1d3f94974dd10d0 1d3f94975a765b0 1d3f94a27e065b0 1d3f94a28aa6c70 1d3f94ada893e80 1d3f94adb540890 1d3f94b8d54e190 1d3f94b8e1fd2b0 1d3f94c402a96c0 1d3f94c40f49d80 1d3f94cf2ef34f0 1d3f94cf3b962c0 1d3f94da58b6390 1d3f94da6560690 1d3f94e586ba010 1d3f94e5935f4f0 1d3f94f0b80f650 1d3f94f0c4b2420 1d3f94fbe2b7cd0 1d3f94fbef55c80 1d3f95071249880 1d3f95071eeed60 1d3f95123b29650 1d3f951247d1240 1d3f951d68f9e80 1d3f951d759cc50 1d3f9528962e2b0 1d3f9528a2ce970 1d3f9533c018250 1d3f9533ccbd730 1d3f953ef1b4560 1d3f953efe5e860 1d3f954a1e95970 1d3f954a2b3fc70 1d3f95554e6e1f0 1d3f95555b136d0 1d3f95607674b30 1d3f95608312ae0 1d3f956ba5e1cf0 1d3f956bb27fca0 1d3f9576d1092b0 1d3f9576dda7260 1d3f9581feb7800 1d3f95820b57ec0 1d3f958d29429c0 1d3f958d35e5790 1d3f959859c87b0 1d3f9598666dc90 1d3f95a38904c30 1d3f95a395aa110 1d3f95aeb29bbb0 1d3f95aebf37450 1d3f95b9e171790 1d3f95b9ee19380 1d3f95c50e13400 1d3f95c51abaff0 1d3f95d03a4e7d0 1d3f95d046f63c0 1d3f95db63fddf0 1d3f95db709bda0 1d3f95e6918a060 1d3f95e69e34360 1d3f95f1c4a5840 1d3f95f1d152250 1d3f95fced8f250 1d3f95fcfa2d200 1d3f96081dc4730 1d3f96082a71140 1d3f961348212c0 1d3f961354c4090 1d3f961e77206b0 1d3f961e83be660 1d3f9629a16e7e0 1d3f9629ae07970 </TimeStampList>
+    <Attachment Name="ChannelAttachment" Application="LAS AF" />
+    <Attachment Name="ViewerScaling" Application="LAS AF">
+      <ChannelScalingInfo BackgroundLutName="" WhiteValue="1" BlackValue="0" GammaValue="1" Automatic="0" />
+      <ChannelScalingInfo BackgroundLutName="" WhiteValue="1" BlackValue="0" GammaValue="1" Automatic="0" />
+    </Attachment>
+    <Attachment Name="ImageXMLDocument" Application="LAS AF">
+      <RootNode />
+    </Attachment>
+    <Attachment Name="HardwareSetting" Application="LAS AF" Software="LAS-AF 1.0.0.12269" HardwareServerVersion="Build 12269" SystemType="11" SystemTypeName="AF 6000" DataSourceType="1" DataSourceTypeName="Camera">
+      <ATLCameraSettingDefinition VersionNumber="4" MirrorX="0" MirrorY="0" TheoCamSensorPixelSizeX="0.00000645" TheoCamSensorPixelSizeY="0.00000645" Gamma="1" Brightness="43" WhiteValue="255" BlackValue="0" GainValue="10" GainStringValue="0" CanDoEMGain="0" CanDoColorSat="0" EMGainValue="1" OffsetValue="0" ColorSat="1" AutoBright="0" AutoExposure="0" AutoContrastGamma="101" ScanMode="xyt" ZUseMode="2" ZUseModeName="z-wide" ZPosition="3450.19 µm" IsSuperZ="0" Begin="0" End="0" Sections="1" CycleCount="144" CycleTime="300" UseMaxIterationsForT="0" CompleteTime="42903.6560000015" IsTimeMinimizeEnabled="0" LastTCalcMode="3" ValidBeginStack="0" ValidEndStack="0" StackCalculationMode="0" StackCalculationModeName="Constant steps" IsZStackAroundCurrent="0" ZStackDirectionMode="1" ZStackDirectionModeName="Unidirectional" StageUseMode="1" StagePosX="110.94 mm" StagePosY="50.76 mm" StageRangeX="0.126999934976" StageRangeY="0.08165740448045" StageOrderNumber="11522100" Magnification="10" AutofocusChannel="1" IsAutofocusOnStart="0" AutofocusRedoEveryNTimePoints="0" ObjectiveName="HC PL FLUOTAR    10x/0.30 DRY " ObjectiveNumber="11506507" ObjectivePos="1" MicroscopeModel="DMI8" IsInverseMicroscopeModel="1" ShutterMode="1" ShutterModeSoftware="0" Immersion="DRY" NumericalAperture="0.3" RefractionIndex="1" TubeOpticName="" TubeOpticPos="3145771" TubeOpticPortMagPos="3145776" SpeedandPortIndex="0" SpeedandPort="40 MHz" CanDoColorCapture="0" CanDoMicroScanning="0" CanDoDualLightMode="1" DualLightMode="0" CanDoLiveBinning="1" IsLiveBinningActive="0" CanDoControlCooler="1" IsCoolerActive="1" CanDoControlTemperature="0" CanDoFanControl="0" CanDoHotSpotCorrection="1" ThresholdHotspot="50" ExposureStartTimeHotspot="500.377 ms" CanDoBrightnessCorrection="1" IsBrightnessCorrectionActive="0" SCMOSReadoutMode="0" CurrentSPIMFilterPosition="0" BinningValuePrecise="1">
+        <Autofocus-config VersionNumber="1" Precision="2" FocusRange="0.00008" ZUseMode="2" ZUseModeName="z-wide" AFAnalyseType="4" AFAnalyseTypeName="FirstChannelOnly" WorkflowTimelapse="2" WorkflowTimelapseName="AllTime" WorkflowTimelapseIterator="1" WorkflowXY="2" WorkflowXYName="AllPos" WorkflowXYIterator="1" UseFixSliceNumber="0" AFSubsystem="4" AFSubsystemName="CombinedWidefield" AFCOffset="-2" AFCActive="1" AFCAutonomousOffset="-1" AutoFocusMode="2" AutoFocusModeName="FirstChannelOnly" AutofocusChannel="1" AutofocusChannelName="2000" OptimalStepSize="2.77777777777778E-06" PositionDimension="122" />
+        <AdditionalZPositionList>
+          <AdditionalZPosition Valid="1" SuperZMode="1" SuperZModeName="RestrictedRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.003450191555" />
+        </AdditionalZPositionList>
+        <Quantity Value="0" Unit="" />
+        <WideFieldChannelConfigurator MicroscopeFamilyType="2" CameraName="DFC365FX-688083513" CameraType="10" CameraNamePure="DFC365 FX" CameraColorCaptureMode="0" MaxChannelCount="8" CurrentChannelIndex="0" IsSequencerBoard="0" IsTriggerCamera="1" IsAutoZControl="0" IsAutoTimeControl="0" IsAutoFluoControl="0" IsAutoIntensityControl="0" IsAutoExposureTimeControl="0" IsAutoWaveLength="0" eZUseMode="0" eStackFlowMode="2" IsUseSameExposureTime="0" SameExposureTime="0.05" IsHighSpeedModeActive="0" IsSequencerUseEnabled="0" IsSimpleOperation="0" FastFilterWheel1="-1" FastFilterWheel2="-1" FastFilterWheel3="-1" FastFilterWheel4="-1" CanDoTIRF="0" TIRFPenetrationDepthMode="1" SameTIRFPenetrationDepthIndex="0" SameTIRFApertureValue="0" TIRFManualMode="0" IsTIRFFastIlluminationSwitchingActive="0" InTrigger="-1" OutTrigger="-1" InTriggerMode="-1" OutTriggerMode="-1" m_sInTrigger="-1" m_sInTriggerMode="-1" m_sInTriggerShowInGraph="1" m_sInTriggerRecordInEventlist="1" m_sInTriggerDescription="" m_sOutTrigger="-1" m_sOutTriggerMode="-1" m_sOutTriggerShowInGraph="1" m_sOutTriggerRecordInEventlist="1" m_sOutTriggerDescription="" m_sOutTriggerOnStart="-1" m_sOutTriggerOnStartMode="-1" m_sOutTriggerOnStartShowInGraph="1" m_sOutTriggerOnStartRecordInEventlist="1" m_sOutTriggerOnStartDescription="" m_sOutTriggerOnEnd="-1" m_sOutTriggerOnEndMode="-1" m_sOutTriggerOnEndShowInGraph="1" m_sOutTriggerOnEndRecordInEventlist="1" m_sOutTriggerOnEndDescription="" WFCCCameranRoiLeftHightX="0" WFCCCameranRoiLeftHightY="0" WFCCCameranRoiRightButtomX="1392" WFCCCameranRoiRightButtomY="1040" WFCCCameranRoiIsUsed="0" ILLEDMaxWavelengths="0" ILLEDCodedSliderPos="3" ExtensionMode="0" GISTAutoExpoControlConfig_IsEnabled="0" GISTAutoExpoControlConfig_MaxRegulatorValue="150" GISTAutoExpoControlConfig_MinRegulatorValue="1" GISTAutoExpoControlConfig_OverexposuredPixelsThreshold="5" CanDoOnlineShadingCorrection="1" OnlineShadingCorrectionDefinitionState="0" OnlineShadingCorrectionActivationState="0" OnlineShadingCorrectionNotificationsEnabled="0" CanDoDIC="1" CanDoCondenser="1" OnlineShadingCorrection="0" ObjectiveArtNo="11506507" ObjectiveName="HC PL FLUOTAR 10 x" bIsDiaphragmStoreModeEnabled="1" m_sFieldDiaphragmILSettings="[FLUO;12][IL-BF;5]" FieldDiaphragmILSettingsToDisplay="[FLUO;6&lt;font size='1'&gt;&amp;#9711;&lt;/font&gt;][IL-BF;5]" m_sFieldDiaphragmTLSettings="[TL-BF;34][TL-DF;32]" m_sApertureDiaphragmILSettings="[FLUO;1]" m_sApertureDiaphragmTLSettings="[TL-BF;22]" bIsDICStoreModeEnabled="0" IsSimAcqActive="0" StageRotationAngle="0" ColumnTiltAngle="0">
+          <WideFieldChannelInfo Channel="2000" FluoCubePos="5" Intensity="40" IntensityMode="100" ExposureTime="50 ms" ContrastingMethodName="TL-PH" ContrastingMethod="101" Gain="10" GainString="0" EMGain="1" SpinDiskFilterSetPosition="0" SpinDiskUse="0" FluoChromeName="" UserDefName="new 1" FluoCubeName="Ana_TL" DyeName="" LUT="Gray" BackgroundLUT="" BlackValue="0" WhiteValue="1" GammaValue="1" SpinDiskFilterSetName="unknown" ColorGainMode="2" ColorGainValueR="0" ColorGainValueG="0" ColorGainValueB="0" FFW_Excitation1Position="0" FFW_Excitation2Position="0" FFW_Emission1Position="0" FFW_Emission2Position="0" FFW_Excitation1FilterName="" FFW_Excitation2FilterName="" FFW_Emission1FilterName="" FFW_Emission2FilterName="" TL_Light-Intensity="40" IL_Light-Intensity="5" IFW_Light-Intensity="-1" TL_Shutter="0" IL_Shutter="0" FieldDiaphragmValue="34" ApertureDiaphragmValue="24" OnlineShadingCorrectionReferenceID="-1" OnlineShadingCorrectionReferenceParentID="-1" FilteredOnlineShadingCorrectionReferenceID="-1" OnlineShadingCorrectionDefinitionState="-1" OnlineShadingCorrectionReferenceImageName="" TIRF_WaveLength="0" TIRF_Azimuth="0" TIRF_PenetrationDepthIndex="0" TIRF_Aperture="0" TIRF_PenetrationDepthFromAperture="0" TIRF_PenetrationDepth="0" TIRF_FastIlluminationSwitchingMode="0" TIRF_LaserIntensity="0" ILLEDMaxUsedChannels="0" ILLEDIsValid="0" TIRFFastIlluminationSwitchingMode="0" AFCApplicable="1" GIST_BackpumpingIntensity="0" GIST_BackpumpingEnabled="0" DICPos="3" DICLensName="-" CondenserPos="4" CondenserLensName="PH1" ObliqueMode="0" ObliqueValue="0" />
+          <WideFieldChannelInfo Channel="2001" FluoCubePos="1" Intensity="5" IntensityMode="210" ExposureTime="50 ms" ContrastingMethodName="FLUO" ContrastingMethod="205" Gain="10" GainString="0" EMGain="1" SpinDiskFilterSetPosition="0" SpinDiskUse="0" FluoChromeName="" UserDefName="new 2" FluoCubeName="GFP" DyeName="" LUT="Green" BackgroundLUT="" BlackValue="0" WhiteValue="1" GammaValue="1" SpinDiskFilterSetName="unknown" ColorGainMode="2" ColorGainValueR="0" ColorGainValueG="0" ColorGainValueB="0" FFW_Excitation1Position="0" FFW_Excitation2Position="0" FFW_Emission1Position="0" FFW_Emission2Position="0" FFW_Excitation1FilterName="" FFW_Excitation2FilterName="" FFW_Emission1FilterName="" FFW_Emission2FilterName="" TL_Light-Intensity="40" IL_Light-Intensity="5" IFW_Light-Intensity="-1" TL_Shutter="0" IL_Shutter="1" FieldDiaphragmValue="34" ApertureDiaphragmValue="24" OnlineShadingCorrectionReferenceID="-1" OnlineShadingCorrectionReferenceParentID="-1" FilteredOnlineShadingCorrectionReferenceID="-1" OnlineShadingCorrectionDefinitionState="0" OnlineShadingCorrectionReferenceImageName="" TIRF_WaveLength="0" TIRF_Azimuth="0" TIRF_PenetrationDepthIndex="0" TIRF_Aperture="0" TIRF_PenetrationDepthFromAperture="0" TIRF_PenetrationDepth="0" TIRF_FastIlluminationSwitchingMode="0" TIRF_LaserIntensity="0" ILLEDMaxUsedChannels="0" ILLEDIsValid="0" TIRFFastIlluminationSwitchingMode="0" AFCApplicable="1" GIST_BackpumpingIntensity="0" GIST_BackpumpingEnabled="0" DICPos="3" DICLensName="-" CondenserPos="4" CondenserLensName="PH1" ObliqueMode="0" ObliqueValue="0" />
+          <AdvancedCameraFeatures Advanced_Camera_Features_Activated="1">
+            <CameraFeature Name="Image averaging" Camera_Feature_160_Value="3.000000" Camera_Feature_160_Enabled="1" />
+            <Ch0>
+              <CameraFeature Name="Black balance" Camera_Feature_180_Value="11.000000" Camera_Feature_180_Enabled="1" />
+            </Ch0>
+            <Ch1>
+              <CameraFeature Name="Black balance" Camera_Feature_180_Value="11.000000" Camera_Feature_180_Enabled="1" />
+            </Ch1>
+          </AdvancedCameraFeatures>
+        </WideFieldChannelConfigurator>
+        <CameraFormat xDim="1392" yDim="1040" Resolution="8" IsGray="1" Binning="1" LiveBinning="1" ColorCaptureMode="0" SimAcqMode="1" />
+        <XYStageConfiguratorSettings>
+          <XYZStagePointDefinitionList StageOrderNumber="11522100">
+            <XYZStagePointDefinition StageXPos="0.07317500159688" StageYPos="0.0073412560069" ZMode="2" ZUseModeName="z-wide" ValidStack="0" Sections="1" StepSize="0" PositionIdentifier="JEB_w1p1_" PositionID="1" FileNameBase="" MartixIdentifier="0" TileScanIdentifier="0" AFCOffset="11235.27">
+              <AdditionalZPositionList>
+                <AdditionalZPosition Valid="1" SuperZMode="1" SuperZModeName="RestrictedRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.003368308435" />
+              </AdditionalZPositionList>
+            </XYZStagePointDefinition>
+            <XYZStagePointDefinition StageXPos="0.07351347798608" StageYPos="0.01091359792786" ZMode="2" ZUseModeName="z-wide" ValidStack="0" Sections="1" StepSize="0" PositionIdentifier="JEB_w1p2_" PositionID="2" FileNameBase="" MartixIdentifier="0" TileScanIdentifier="0" AFCOffset="11243.61">
+              <AdditionalZPositionList>
+                <AdditionalZPosition Valid="1" SuperZMode="1" SuperZModeName="RestrictedRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.003396561495" />
+              </AdditionalZPositionList>
+            </XYZStagePointDefinition>
+            <XYZStagePointDefinition StageXPos="0.07355798968204" StageYPos="0.01196152707882" ZMode="2" ZUseModeName="z-wide" ValidStack="0" Sections="1" StepSize="0" PositionIdentifier="JEB_w1p3_" PositionID="3" FileNameBase="" MartixIdentifier="0" TileScanIdentifier="0" AFCOffset="11242.72">
+              <AdditionalZPositionList>
+                <AdditionalZPosition Valid="1" SuperZMode="1" SuperZModeName="RestrictedRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.00339332016" />
+              </AdditionalZPositionList>
+            </XYZStagePointDefinition>
+            <XYZStagePointDefinition StageXPos="0.07382268681214" StageYPos="0.01362699985891" ZMode="2" ZUseModeName="z-wide" ValidStack="0" Sections="1" StepSize="0" PositionIdentifier="JEB_w1p4_" PositionID="4" FileNameBase="" MartixIdentifier="0" TileScanIdentifier="0" AFCOffset="11242.08">
+              <AdditionalZPositionList>
+                <AdditionalZPosition Valid="1" SuperZMode="1" SuperZModeName="RestrictedRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.003390901655" />
+              </AdditionalZPositionList>
+            </XYZStagePointDefinition>
+            <XYZStagePointDefinition StageXPos="0.07382762333305" StageYPos="0.01476816626682" ZMode="2" ZUseModeName="z-wide" ValidStack="0" Sections="1" StepSize="0" PositionIdentifier="JEB_w1p5_" PositionID="5" FileNameBase="" MartixIdentifier="0" TileScanIdentifier="0" AFCOffset="11237.8">
+              <AdditionalZPositionList>
+                <AdditionalZPosition Valid="1" SuperZMode="1" SuperZModeName="RestrictedRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.003375906155" />
+              </AdditionalZPositionList>
+            </XYZStagePointDefinition>
+            <XYZStagePointDefinition StageXPos="0.09270772597112" StageYPos="0.01496569546256" ZMode="2" ZUseModeName="z-wide" ValidStack="0" Sections="1" StepSize="0" PositionIdentifier="rJEB_w1p1_" PositionID="6" FileNameBase="" MartixIdentifier="0" TileScanIdentifier="0" AFCOffset="11240.44">
+              <AdditionalZPositionList>
+                <AdditionalZPosition Valid="1" SuperZMode="1" SuperZModeName="RestrictedRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.00336930429" />
+              </AdditionalZPositionList>
+            </XYZStagePointDefinition>
+            <XYZStagePointDefinition StageXPos="0.09240812651514" StageYPos="0.01360859654802" ZMode="2" ZUseModeName="z-wide" ValidStack="0" Sections="1" StepSize="0" PositionIdentifier="rJEB_w1p2_" PositionID="7" FileNameBase="" MartixIdentifier="0" TileScanIdentifier="0" AFCOffset="11238.81">
+              <AdditionalZPositionList>
+                <AdditionalZPosition Valid="1" SuperZMode="1" SuperZModeName="RestrictedRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.003367923935" />
+              </AdditionalZPositionList>
+            </XYZStagePointDefinition>
+            <XYZStagePointDefinition StageXPos="0.09242288236696" StageYPos="0.01264942711724" ZMode="2" ZUseModeName="z-wide" ValidStack="0" Sections="1" StepSize="0" PositionIdentifier="rJEB_w1p3_" PositionID="8" FileNameBase="" MartixIdentifier="0" TileScanIdentifier="0" AFCOffset="11242.27">
+              <AdditionalZPositionList>
+                <AdditionalZPosition Valid="1" SuperZMode="1" SuperZModeName="RestrictedRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.003375929225" />
+              </AdditionalZPositionList>
+            </XYZStagePointDefinition>
+            <XYZStagePointDefinition StageXPos="0.09270002089694" StageYPos="0.01180461797947" ZMode="2" ZUseModeName="z-wide" ValidStack="0" Sections="1" StepSize="0" PositionIdentifier="rJEB_w1p4_" PositionID="9" FileNameBase="" MartixIdentifier="0" TileScanIdentifier="0" AFCOffset="11243.78">
+              <AdditionalZPositionList>
+                <AdditionalZPosition Valid="1" SuperZMode="1" SuperZModeName="RestrictedRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.003379035985" />
+              </AdditionalZPositionList>
+            </XYZStagePointDefinition>
+            <XYZStagePointDefinition StageXPos="0.09270313612972" StageYPos="0.00965416986175" ZMode="2" ZUseModeName="z-wide" ValidStack="0" Sections="1" StepSize="0" PositionIdentifier="rJEB_w1p5_" PositionID="10" FileNameBase="" MartixIdentifier="0" TileScanIdentifier="0" AFCOffset="11241.89">
+              <AdditionalZPositionList>
+                <AdditionalZPosition Valid="1" SuperZMode="1" SuperZModeName="RestrictedRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.00338112382" />
+              </AdditionalZPositionList>
+            </XYZStagePointDefinition>
+            <XYZStagePointDefinition StageXPos="0.11263101166883" StageYPos="0.00814963938207" ZMode="2" ZUseModeName="z-wide" ValidStack="0" Sections="1" StepSize="0" PositionIdentifier="rJEB_1_to_JEB_9_w1p1_" PositionID="11" FileNameBase="" MartixIdentifier="0" TileScanIdentifier="0" AFCOffset="11262.13">
+              <AdditionalZPositionList>
+                <AdditionalZPosition Valid="1" SuperZMode="1" SuperZModeName="RestrictedRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.003399299135" />
+              </AdditionalZPositionList>
+            </XYZStagePointDefinition>
+            <XYZStagePointDefinition StageXPos="0.1127234774418" StageYPos="0.01078224057324" ZMode="2" ZUseModeName="z-wide" ValidStack="0" Sections="1" StepSize="0" PositionIdentifier="rJEB_1_to_JEB_9_w1p2_" PositionID="12" FileNameBase="" MartixIdentifier="0" TileScanIdentifier="0" AFCOffset="11261.5">
+              <AdditionalZPositionList>
+                <AdditionalZPosition Valid="1" SuperZMode="1" SuperZModeName="RestrictedRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.003405974055" />
+              </AdditionalZPositionList>
+            </XYZStagePointDefinition>
+            <XYZStagePointDefinition StageXPos="0.11259771090463" StageYPos="0.01235836769595" ZMode="2" ZUseModeName="z-wide" ValidStack="0" Sections="1" StepSize="0" PositionIdentifier="rJEB_1_to_JEB_9_w1p3_" PositionID="13" FileNameBase="" MartixIdentifier="0" TileScanIdentifier="0" AFCOffset="11260.19">
+              <AdditionalZPositionList>
+                <AdditionalZPosition Valid="1" SuperZMode="1" SuperZModeName="RestrictedRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.00340423996" />
+              </AdditionalZPositionList>
+            </XYZStagePointDefinition>
+            <XYZStagePointDefinition StageXPos="0.11236612410914" StageYPos="0.01385073021311" ZMode="2" ZUseModeName="z-wide" ValidStack="0" Sections="1" StepSize="0" PositionIdentifier="rJEB_1_to_JEB_9_w1p4_" PositionID="14" FileNameBase="" MartixIdentifier="0" TileScanIdentifier="0" AFCOffset="11259.04">
+              <AdditionalZPositionList>
+                <AdditionalZPosition Valid="1" SuperZMode="1" SuperZModeName="RestrictedRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.003402844225" />
+              </AdditionalZPositionList>
+            </XYZStagePointDefinition>
+            <XYZStagePointDefinition StageXPos="0.11241402447524" StageYPos="0.01483623752103" ZMode="2" ZUseModeName="z-wide" ValidStack="0" Sections="1" StepSize="0" PositionIdentifier="rJEB_1_to_JEB_9_w1p5_" PositionID="15" FileNameBase="" MartixIdentifier="0" TileScanIdentifier="0" AFCOffset="11258.37">
+              <AdditionalZPositionList>
+                <AdditionalZPosition Valid="1" SuperZMode="1" SuperZModeName="RestrictedRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.003402905745" />
+              </AdditionalZPositionList>
+            </XYZStagePointDefinition>
+            <XYZStagePointDefinition StageXPos="0.11237736433776" StageYPos="0.02898727519757" ZMode="2" ZUseModeName="z-wide" ValidStack="0" Sections="1" StepSize="0" PositionIdentifier="rJEB_1_to_JEB_9_w2p1_" PositionID="16" FileNameBase="" MartixIdentifier="0" TileScanIdentifier="0" AFCOffset="11259.6">
+              <AdditionalZPositionList>
+                <AdditionalZPosition Valid="1" SuperZMode="1" SuperZModeName="RestrictedRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.00342380332" />
+              </AdditionalZPositionList>
+            </XYZStagePointDefinition>
+            <XYZStagePointDefinition StageXPos="0.11241872173846" StageYPos="0.0320729327974" ZMode="2" ZUseModeName="z-wide" ValidStack="0" Sections="1" StepSize="0" PositionIdentifier="rJEB_1_to_JEB_9_w2p2_" PositionID="17" FileNameBase="" MartixIdentifier="0" TileScanIdentifier="0" AFCOffset="11256.53">
+              <AdditionalZPositionList>
+                <AdditionalZPosition Valid="1" SuperZMode="1" SuperZModeName="RestrictedRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.003419800675" />
+              </AdditionalZPositionList>
+            </XYZStagePointDefinition>
+            <XYZStagePointDefinition StageXPos="0.11247779885665" StageYPos="0.03365777573596" ZMode="2" ZUseModeName="z-wide" ValidStack="0" Sections="1" StepSize="0" PositionIdentifier="rJEB_1_to_JEB_9_w2p3_" PositionID="18" FileNameBase="" MartixIdentifier="0" TileScanIdentifier="0" AFCOffset="11255.87">
+              <AdditionalZPositionList>
+                <AdditionalZPosition Valid="1" SuperZMode="1" SuperZModeName="RestrictedRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.00341879713" />
+              </AdditionalZPositionList>
+            </XYZStagePointDefinition>
+            <XYZStagePointDefinition StageXPos="0.11255759862048" StageYPos="0.03460428404041" ZMode="2" ZUseModeName="z-wide" ValidStack="0" Sections="1" StepSize="0" PositionIdentifier="rJEB_1_to_JEB_9_w2p4_" PositionID="19" FileNameBase="" MartixIdentifier="0" TileScanIdentifier="0" AFCOffset="11257.01">
+              <AdditionalZPositionList>
+                <AdditionalZPosition Valid="1" SuperZMode="1" SuperZModeName="RestrictedRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.00342175778" />
+              </AdditionalZPositionList>
+            </XYZStagePointDefinition>
+            <XYZStagePointDefinition StageXPos="0.11251725684426" StageYPos="0.03554809215093" ZMode="2" ZUseModeName="z-wide" ValidStack="0" Sections="1" StepSize="0" PositionIdentifier="rJEB_1_to_JEB_9_w2p5_" PositionID="20" FileNameBase="" MartixIdentifier="0" TileScanIdentifier="0" AFCOffset="11256.13">
+              <AdditionalZPositionList>
+                <AdditionalZPosition Valid="1" SuperZMode="1" SuperZModeName="RestrictedRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.003420600435" />
+              </AdditionalZPositionList>
+            </XYZStagePointDefinition>
+            <XYZStagePointDefinition StageXPos="0.09313438102611" StageYPos="0.03291706810739" ZMode="2" ZUseModeName="z-wide" ValidStack="0" Sections="1" StepSize="0" PositionIdentifier="rJEB_w2p1_" PositionID="21" FileNameBase="" MartixIdentifier="0" TileScanIdentifier="0" AFCOffset="11254.55">
+              <AdditionalZPositionList>
+                <AdditionalZPosition Valid="1" SuperZMode="1" SuperZModeName="RestrictedRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.0034111302" />
+              </AdditionalZPositionList>
+            </XYZStagePointDefinition>
+            <XYZStagePointDefinition StageXPos="0.09280550912418" StageYPos="0.03132164411956" ZMode="2" ZUseModeName="z-wide" ValidStack="0" Sections="1" StepSize="0" PositionIdentifier="rJEB_w2p2_" PositionID="22" FileNameBase="" MartixIdentifier="0" TileScanIdentifier="0" AFCOffset="11257.06">
+              <AdditionalZPositionList>
+                <AdditionalZPosition Valid="1" SuperZMode="1" SuperZModeName="RestrictedRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.00341534432" />
+              </AdditionalZPositionList>
+            </XYZStagePointDefinition>
+            <XYZStagePointDefinition StageXPos="0.09274690075575" StageYPos="0.03014898846996" ZMode="2" ZUseModeName="z-wide" ValidStack="0" Sections="1" StepSize="0" PositionIdentifier="rJEB_w2p3_" PositionID="23" FileNameBase="" MartixIdentifier="0" TileScanIdentifier="0" AFCOffset="11256.29">
+              <AdditionalZPositionList>
+                <AdditionalZPosition Valid="1" SuperZMode="1" SuperZModeName="RestrictedRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.003411718485" />
+              </AdditionalZPositionList>
+            </XYZStagePointDefinition>
+            <XYZStagePointDefinition StageXPos="0.09261137348139" StageYPos="0.02914011203338" ZMode="2" ZUseModeName="z-wide" ValidStack="0" Sections="1" StepSize="0" PositionIdentifier="rJEB_w2p4_" PositionID="24" FileNameBase="" MartixIdentifier="0" TileScanIdentifier="0" AFCOffset="11259.54">
+              <AdditionalZPositionList>
+                <AdditionalZPosition Valid="1" SuperZMode="1" SuperZModeName="RestrictedRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.00341923546" />
+              </AdditionalZPositionList>
+            </XYZStagePointDefinition>
+            <XYZStagePointDefinition StageXPos="0.09281867806275" StageYPos="0.02820343282546" ZMode="2" ZUseModeName="z-wide" ValidStack="0" Sections="1" StepSize="0" PositionIdentifier="rJEB_w2p5_" PositionID="25" FileNameBase="" MartixIdentifier="0" TileScanIdentifier="0" AFCOffset="11258.17">
+              <AdditionalZPositionList>
+                <AdditionalZPosition Valid="1" SuperZMode="1" SuperZModeName="RestrictedRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.00341480602" />
+              </AdditionalZPositionList>
+            </XYZStagePointDefinition>
+            <XYZStagePointDefinition StageXPos="0.07399017696076" StageYPos="0.02642084584752" ZMode="2" ZUseModeName="z-wide" ValidStack="0" Sections="1" StepSize="0" PositionIdentifier="JEB_w2p1_" PositionID="26" FileNameBase="" MartixIdentifier="0" TileScanIdentifier="0" AFCOffset="11263.58">
+              <AdditionalZPositionList>
+                <AdditionalZPosition Valid="1" SuperZMode="1" SuperZModeName="RestrictedRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.003450353045" />
+              </AdditionalZPositionList>
+            </XYZStagePointDefinition>
+            <XYZStagePointDefinition StageXPos="0.07400453730497" StageYPos="0.03009809005852" ZMode="2" ZUseModeName="z-wide" ValidStack="0" Sections="1" StepSize="0" PositionIdentifier="JEB_w2p2_" PositionID="27" FileNameBase="" MartixIdentifier="0" TileScanIdentifier="0" AFCOffset="11258.17">
+              <AdditionalZPositionList>
+                <AdditionalZPosition Valid="1" SuperZMode="1" SuperZModeName="RestrictedRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.0034306628" />
+              </AdditionalZPositionList>
+            </XYZStagePointDefinition>
+            <XYZStagePointDefinition StageXPos="0.07391230102407" StageYPos="0.03114134636031" ZMode="2" ZUseModeName="z-wide" ValidStack="0" Sections="1" StepSize="0" PositionIdentifier="JEB_w2p3_" PositionID="28" FileNameBase="" MartixIdentifier="0" TileScanIdentifier="0" AFCOffset="11259.43">
+              <AdditionalZPositionList>
+                <AdditionalZPosition Valid="1" SuperZMode="1" SuperZModeName="RestrictedRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.003435988125" />
+              </AdditionalZPositionList>
+            </XYZStagePointDefinition>
+            <XYZStagePointDefinition StageXPos="0.07402834100372" StageYPos="0.0320516437458" ZMode="2" ZUseModeName="z-wide" ValidStack="0" Sections="1" StepSize="0" PositionIdentifier="JEB_w2p4_" PositionID="29" FileNameBase="" MartixIdentifier="0" TileScanIdentifier="0" AFCOffset="11256.72">
+              <AdditionalZPositionList>
+                <AdditionalZPosition Valid="1" SuperZMode="1" SuperZModeName="RestrictedRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.003427206145" />
+              </AdditionalZPositionList>
+            </XYZStagePointDefinition>
+            <XYZStagePointDefinition StageXPos="0.0741682237446" StageYPos="0.03330324466748" ZMode="2" ZUseModeName="z-wide" ValidStack="0" Sections="1" StepSize="0" PositionIdentifier="JEB-w2p5_" PositionID="30" FileNameBase="" MartixIdentifier="0" TileScanIdentifier="0" AFCOffset="11257.95">
+              <AdditionalZPositionList>
+                <AdditionalZPosition Valid="1" SuperZMode="1" SuperZModeName="RestrictedRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.003431743245" />
+              </AdditionalZPositionList>
+            </XYZStagePointDefinition>
+            <XYZStagePointDefinition StageXPos="0.07252040232266" StageYPos="0.0511354230374" ZMode="2" ZUseModeName="z-wide" ValidStack="0" Sections="1" StepSize="0" PositionIdentifier="JEB-w1p1_" PositionID="31" FileNameBase="" MartixIdentifier="0" TileScanIdentifier="0" AFCOffset="11255.52">
+              <AdditionalZPositionList>
+                <AdditionalZPosition Valid="1" SuperZMode="1" SuperZModeName="RestrictedRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.003406804575" />
+              </AdditionalZPositionList>
+            </XYZStagePointDefinition>
+            <XYZStagePointDefinition StageXPos="0.07252040232266" StageYPos="0.04961339744949" ZMode="2" ZUseModeName="z-wide" ValidStack="0" Sections="1" StepSize="0" PositionIdentifier="JEB-w1p2_" PositionID="32" FileNameBase="" MartixIdentifier="0" TileScanIdentifier="0" AFCOffset="11259.17">
+              <AdditionalZPositionList>
+                <AdditionalZPosition Valid="1" SuperZMode="1" SuperZModeName="RestrictedRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.003417693615" />
+              </AdditionalZPositionList>
+            </XYZStagePointDefinition>
+            <XYZStagePointDefinition StageXPos="0.07379700323154" StageYPos="0.05018533075041" ZMode="2" ZUseModeName="z-wide" ValidStack="0" Sections="1" StepSize="0" PositionIdentifier="JEB-w1p3_" PositionID="33" FileNameBase="" MartixIdentifier="0" TileScanIdentifier="0" AFCOffset="11257.43">
+              <AdditionalZPositionList>
+                <AdditionalZPosition Valid="1" SuperZMode="1" SuperZModeName="RestrictedRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.0034111302" />
+              </AdditionalZPositionList>
+            </XYZStagePointDefinition>
+            <XYZStagePointDefinition StageXPos="0.07121618912323" StageYPos="0.05116905583268" ZMode="2" ZUseModeName="z-wide" ValidStack="0" Sections="1" StepSize="0" PositionIdentifier="JEB-w1p4_" PositionID="34" FileNameBase="" MartixIdentifier="0" TileScanIdentifier="0" AFCOffset="11260.87">
+              <AdditionalZPositionList>
+                <AdditionalZPosition Valid="1" SuperZMode="1" SuperZModeName="RestrictedRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.003421138735" />
+              </AdditionalZPositionList>
+            </XYZStagePointDefinition>
+            <XYZStagePointDefinition StageXPos="0.07121618912323" StageYPos="0.05018462274296" ZMode="2" ZUseModeName="z-wide" ValidStack="0" Sections="1" StepSize="0" PositionIdentifier="JEB-w1p5_" PositionID="35" FileNameBase="" MartixIdentifier="0" TileScanIdentifier="0" AFCOffset="11260.14">
+              <AdditionalZPositionList>
+                <AdditionalZPosition Valid="1" SuperZMode="1" SuperZModeName="RestrictedRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.003420177485" />
+              </AdditionalZPositionList>
+            </XYZStagePointDefinition>
+            <XYZStagePointDefinition StageXPos="0.07131712657155" StageYPos="0.07193608133277" ZMode="2" ZUseModeName="z-wide" ValidStack="0" Sections="1" StepSize="0" PositionIdentifier="JEB-w2p1_" PositionID="36" FileNameBase="" MartixIdentifier="0" TileScanIdentifier="0" AFCOffset="11240.31">
+              <AdditionalZPositionList>
+                <AdditionalZPosition Valid="1" SuperZMode="1" SuperZModeName="RestrictedRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.003364478815" />
+              </AdditionalZPositionList>
+            </XYZStagePointDefinition>
+            <XYZStagePointDefinition StageXPos="0.07094047637377" StageYPos="0.07102469996346" ZMode="2" ZUseModeName="z-wide" ValidStack="0" Sections="1" StepSize="0" PositionIdentifier="JEB-w2p2_" PositionID="37" FileNameBase="" MartixIdentifier="0" TileScanIdentifier="0" AFCOffset="11241.01">
+              <AdditionalZPositionList>
+                <AdditionalZPosition Valid="1" SuperZMode="1" SuperZModeName="RestrictedRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.00336550543" />
+              </AdditionalZPositionList>
+            </XYZStagePointDefinition>
+            <XYZStagePointDefinition StageXPos="0.07093040801955" StageYPos="0.06926958855739" ZMode="2" ZUseModeName="z-wide" ValidStack="0" Sections="1" StepSize="0" PositionIdentifier="JEB-w2p3_" PositionID="38" FileNameBase="" MartixIdentifier="0" TileScanIdentifier="0" AFCOffset="11247.73">
+              <AdditionalZPositionList>
+                <AdditionalZPosition Valid="1" SuperZMode="1" SuperZModeName="RestrictedRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.00338584548" />
+              </AdditionalZPositionList>
+            </XYZStagePointDefinition>
+            <XYZStagePointDefinition StageXPos="0.07253196481674" StageYPos="0.06836519448919" ZMode="2" ZUseModeName="z-wide" ValidStack="0" Sections="1" StepSize="0" PositionIdentifier="JEB-w2p4_" PositionID="39" FileNameBase="" MartixIdentifier="0" TileScanIdentifier="0" AFCOffset="11250.02">
+              <AdditionalZPositionList>
+                <AdditionalZPosition Valid="1" SuperZMode="1" SuperZModeName="RestrictedRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.00339009036" />
+              </AdditionalZPositionList>
+            </XYZStagePointDefinition>
+            <XYZStagePointDefinition StageXPos="0.07379550909168" StageYPos="0.06959139991606" ZMode="2" ZUseModeName="z-wide" ValidStack="0" Sections="1" StepSize="0" PositionIdentifier="JEB-w2p5_" PositionID="40" FileNameBase="" MartixIdentifier="0" TileScanIdentifier="0" AFCOffset="11245.76">
+              <AdditionalZPositionList>
+                <AdditionalZPosition Valid="1" SuperZMode="1" SuperZModeName="RestrictedRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.00337857074" />
+              </AdditionalZPositionList>
+            </XYZStagePointDefinition>
+            <XYZStagePointDefinition StageXPos="0.09063665281276" StageYPos="0.07025403629554" ZMode="2" ZUseModeName="z-wide" ValidStack="0" Sections="1" StepSize="0" PositionIdentifier="rJEB-w2p1_" PositionID="41" FileNameBase="" MartixIdentifier="0" TileScanIdentifier="0" AFCOffset="11254.57">
+              <AdditionalZPositionList>
+                <AdditionalZPosition Valid="1" SuperZMode="1" SuperZModeName="RestrictedRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.003435788185" />
+              </AdditionalZPositionList>
+            </XYZStagePointDefinition>
+            <XYZStagePointDefinition StageXPos="0.08991741978257" StageYPos="0.06928896354747" ZMode="2" ZUseModeName="z-wide" ValidStack="0" Sections="1" StepSize="0" PositionIdentifier="rJEB-w2p2_" PositionID="42" FileNameBase="" MartixIdentifier="0" TileScanIdentifier="0" AFCOffset="11253.68">
+              <AdditionalZPositionList>
+                <AdditionalZPosition Valid="1" SuperZMode="1" SuperZModeName="RestrictedRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.00343283907" />
+              </AdditionalZPositionList>
+            </XYZStagePointDefinition>
+            <XYZStagePointDefinition StageXPos="0.09234504549275" StageYPos="0.06820988695152" ZMode="2" ZUseModeName="z-wide" ValidStack="0" Sections="1" StepSize="0" PositionIdentifier="rJEB-w2p3_" PositionID="43" FileNameBase="" MartixIdentifier="0" TileScanIdentifier="0" AFCOffset="11256.81">
+              <AdditionalZPositionList>
+                <AdditionalZPosition Valid="1" SuperZMode="1" SuperZModeName="RestrictedRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.003437772205" />
+              </AdditionalZPositionList>
+            </XYZStagePointDefinition>
+            <XYZStagePointDefinition StageXPos="0.09207150559374" StageYPos="0.07258369818869" ZMode="2" ZUseModeName="z-wide" ValidStack="0" Sections="1" StepSize="0" PositionIdentifier="rJEB-w2p4_" PositionID="44" FileNameBase="" MartixIdentifier="0" TileScanIdentifier="0" AFCOffset="11254.31">
+              <AdditionalZPositionList>
+                <AdditionalZPosition Valid="1" SuperZMode="1" SuperZModeName="RestrictedRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.00343693015" />
+              </AdditionalZPositionList>
+            </XYZStagePointDefinition>
+            <XYZStagePointDefinition StageXPos="0.09424119686567" StageYPos="0.07025148746872" ZMode="2" ZUseModeName="z-wide" ValidStack="0" Sections="1" StepSize="0" PositionIdentifier="rJEB-w2p5_" PositionID="45" FileNameBase="" MartixIdentifier="0" TileScanIdentifier="0" AFCOffset="11253.78">
+              <AdditionalZPositionList>
+                <AdditionalZPosition Valid="1" SuperZMode="1" SuperZModeName="RestrictedRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.00344251309" />
+              </AdditionalZPositionList>
+            </XYZStagePointDefinition>
+            <XYZStagePointDefinition StageXPos="0.09238411773837" StageYPos="0.05229326912427" ZMode="2" ZUseModeName="z-wide" ValidStack="0" Sections="1" StepSize="0" PositionIdentifier="rJEB-w1p1_" PositionID="46" FileNameBase="" MartixIdentifier="0" TileScanIdentifier="0" AFCOffset="11257.55">
+              <AdditionalZPositionList>
+                <AdditionalZPosition Valid="1" SuperZMode="1" SuperZModeName="RestrictedRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.00341416775" />
+              </AdditionalZPositionList>
+            </XYZStagePointDefinition>
+            <XYZStagePointDefinition StageXPos="0.09246179347985" StageYPos="0.04685377483898" ZMode="2" ZUseModeName="z-wide" ValidStack="0" Sections="1" StepSize="0" PositionIdentifier="rJEB-w1p2_" PositionID="47" FileNameBase="" MartixIdentifier="0" TileScanIdentifier="0" AFCOffset="11264.2">
+              <AdditionalZPositionList>
+                <AdditionalZPosition Valid="1" SuperZMode="1" SuperZModeName="RestrictedRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.00343187782" />
+              </AdditionalZPositionList>
+            </XYZStagePointDefinition>
+            <XYZStagePointDefinition StageXPos="0.09288397588088" StageYPos="0.05003584840507" ZMode="2" ZUseModeName="z-wide" ValidStack="0" Sections="1" StepSize="0" PositionIdentifier="rJEB-w1p3_" PositionID="48" FileNameBase="" MartixIdentifier="0" TileScanIdentifier="0" AFCOffset="11260.07">
+              <AdditionalZPositionList>
+                <AdditionalZPosition Valid="1" SuperZMode="1" SuperZModeName="RestrictedRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.003419254685" />
+              </AdditionalZPositionList>
+            </XYZStagePointDefinition>
+            <XYZStagePointDefinition StageXPos="0.09110883030538" StageYPos="0.05147234181021" ZMode="2" ZUseModeName="z-wide" ValidStack="0" Sections="1" StepSize="0" PositionIdentifier="rJEB-w1p4_" PositionID="49" FileNameBase="" MartixIdentifier="0" TileScanIdentifier="0" AFCOffset="11259.37">
+              <AdditionalZPositionList>
+                <AdditionalZPosition Valid="1" SuperZMode="1" SuperZModeName="RestrictedRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.003417309115" />
+              </AdditionalZPositionList>
+            </XYZStagePointDefinition>
+            <XYZStagePointDefinition StageXPos="0.0903725611511" StageYPos="0.05017891473807" ZMode="2" ZUseModeName="z-wide" ValidStack="0" Sections="1" StepSize="0" PositionIdentifier="rJEB-w1p5_" PositionID="50" FileNameBase="" MartixIdentifier="0" TileScanIdentifier="0" AFCOffset="11259.61">
+              <AdditionalZPositionList>
+                <AdditionalZPosition Valid="1" SuperZMode="1" SuperZModeName="RestrictedRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.003416224825" />
+              </AdditionalZPositionList>
+            </XYZStagePointDefinition>
+            <XYZStagePointDefinition StageXPos="0.11094364925151" StageYPos="0.05075952967517" ZMode="2" ZUseModeName="z-wide" ValidStack="0" Sections="1" StepSize="0" PositionIdentifier="rJEB_1_to_JEB_9-w1p1_" PositionID="51" FileNameBase="" MartixIdentifier="0" TileScanIdentifier="0" AFCOffset="11264.05">
+              <AdditionalZPositionList>
+                <AdditionalZPosition Valid="1" SuperZMode="1" SuperZModeName="RestrictedRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.003450191555" />
+              </AdditionalZPositionList>
+            </XYZStagePointDefinition>
+            <XYZStagePointDefinition StageXPos="0.11094364925151" StageYPos="0.04985316295173" ZMode="2" ZUseModeName="z-wide" ValidStack="0" Sections="1" StepSize="0" PositionIdentifier="rJEB_1_to_JEB_9-w1p2_" PositionID="52" FileNameBase="" MartixIdentifier="0" TileScanIdentifier="0" AFCOffset="11264.24">
+              <AdditionalZPositionList>
+                <AdditionalZPosition Valid="1" SuperZMode="1" SuperZModeName="RestrictedRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.003449899335" />
+              </AdditionalZPositionList>
+            </XYZStagePointDefinition>
+            <XYZStagePointDefinition StageXPos="0.11221910758285" StageYPos="0.04863202099883" ZMode="2" ZUseModeName="z-wide" ValidStack="0" Sections="1" StepSize="0" PositionIdentifier="rJEB_1_to_JEB_9-w1p3_" PositionID="53" FileNameBase="" MartixIdentifier="0" TileScanIdentifier="0" AFCOffset="11263.02">
+              <AdditionalZPositionList>
+                <AdditionalZPosition Valid="1" SuperZMode="1" SuperZModeName="RestrictedRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.00344429717" />
+              </AdditionalZPositionList>
+            </XYZStagePointDefinition>
+            <XYZStagePointDefinition StageXPos="0.11236785750669" StageYPos="0.05090894854398" ZMode="2" ZUseModeName="z-wide" ValidStack="0" Sections="1" StepSize="0" PositionIdentifier="rJEB_1_to_JEB_9-w1p4_" PositionID="54" FileNameBase="" MartixIdentifier="0" TileScanIdentifier="0" AFCOffset="11262.65">
+              <AdditionalZPositionList>
+                <AdditionalZPosition Valid="1" SuperZMode="1" SuperZModeName="RestrictedRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.00344538146" />
+              </AdditionalZPositionList>
+            </XYZStagePointDefinition>
+            <XYZStagePointDefinition StageXPos="0.11221910758285" StageYPos="0.05178385043978" ZMode="2" ZUseModeName="z-wide" ValidStack="0" Sections="1" StepSize="0" PositionIdentifier="rJEB_1_to_JEB_9-w1p5_" PositionID="55" FileNameBase="" MartixIdentifier="0" TileScanIdentifier="0" AFCOffset="11261.09">
+              <AdditionalZPositionList>
+                <AdditionalZPosition Valid="1" SuperZMode="1" SuperZModeName="RestrictedRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.003449453315" />
+              </AdditionalZPositionList>
+            </XYZStagePointDefinition>
+            <XYZStagePointDefinition StageXPos="0.11313030828819" StageYPos="0.07163266351937" ZMode="2" ZUseModeName="z-wide" ValidStack="0" Sections="1" StepSize="0" PositionIdentifier="rJEB_1_to_JEB_9-w2p1_" PositionID="56" FileNameBase="" MartixIdentifier="0" TileScanIdentifier="0" AFCOffset="11260.87">
+              <AdditionalZPositionList>
+                <AdditionalZPosition Valid="1" SuperZMode="1" SuperZModeName="RestrictedRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.003461395885" />
+              </AdditionalZPositionList>
+            </XYZStagePointDefinition>
+            <XYZStagePointDefinition StageXPos="0.11263798432151" StageYPos="0.07010477855946" ZMode="2" ZUseModeName="z-wide" ValidStack="0" Sections="1" StepSize="0" PositionIdentifier="rJEB_1_to_JEB_9-w2p2_" PositionID="57" FileNameBase="" MartixIdentifier="0" TileScanIdentifier="0" AFCOffset="11261.42">
+              <AdditionalZPositionList>
+                <AdditionalZPosition Valid="1" SuperZMode="1" SuperZModeName="RestrictedRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.00346246095" />
+              </AdditionalZPositionList>
+            </XYZStagePointDefinition>
+            <XYZStagePointDefinition StageXPos="0.1096309497283" StageYPos="0.06997544757099" ZMode="2" ZUseModeName="z-wide" ValidStack="0" Sections="1" StepSize="0" PositionIdentifier="rJEB_1_to_JEB_9-w2p3_" PositionID="58" FileNameBase="" MartixIdentifier="0" TileScanIdentifier="0" AFCOffset="11254.58">
+              <AdditionalZPositionList>
+                <AdditionalZPosition Valid="1" SuperZMode="1" SuperZModeName="RestrictedRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.003442401585" />
+              </AdditionalZPositionList>
+            </XYZStagePointDefinition>
+            <XYZStagePointDefinition StageXPos="0.1096309497283" StageYPos="0.07095324003911" ZMode="2" ZUseModeName="z-wide" ValidStack="0" Sections="1" StepSize="0" PositionIdentifier="rJEB_1_to_JEB_9-w2p4_" PositionID="59" FileNameBase="" MartixIdentifier="0" TileScanIdentifier="0" AFCOffset="11255.54">
+              <AdditionalZPositionList>
+                <AdditionalZPosition Valid="1" SuperZMode="1" SuperZModeName="RestrictedRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.00344602742" />
+              </AdditionalZPositionList>
+            </XYZStagePointDefinition>
+            <XYZStagePointDefinition StageXPos="0.1096309497283" StageYPos="0.07185996809049" ZMode="2" ZUseModeName="z-wide" ValidStack="0" Sections="1" StepSize="0" PositionIdentifier="rJEB_1_to_JEB_9-w2p5_" PositionID="60" FileNameBase="" MartixIdentifier="0" TileScanIdentifier="0" AFCOffset="11254.32">
+              <AdditionalZPositionList>
+                <AdditionalZPosition Valid="1" SuperZMode="1" SuperZModeName="RestrictedRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.003442593835" />
+              </AdditionalZPositionList>
+            </XYZStagePointDefinition>
+          </XYZStagePointDefinitionList>
+        </XYStageConfiguratorSettings>
+      </ATLCameraSettingDefinition>
+    </Attachment>
+  </Image>
+</Data>
