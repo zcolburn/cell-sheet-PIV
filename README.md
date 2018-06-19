@@ -63,6 +63,7 @@ Analysis in the Scripts folder can be called by running the script 6_Analyze.R. 
 The 'Scripts' folder contains a number of scripts.
 
 * 6_Analyze_wo_time.R: A script to analyze the summarized results that disregard the central peg's time point. This will need to be modified to match the experimental conditions. Not doing so will result in an error.
+* 6_Analyze_w_time.R: A script to analyze the summarized results that keeps track of the central peg's time point. This will need to be modified to match the experimental conditions. Not doing so will result in an error.
 * MR.ijm: The ImageJ macro file used to perform the PIV analysis. This analysis calls the PIV plugin.
 * ReadExperimentFile.R: Contains a function used to read in and properly format Experiment.txt files.
 * ReadProcessingFile.R: Contains a function used to read in and properly format Processing.txt.
