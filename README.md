@@ -3,11 +3,11 @@
 Zach Colburn
 May 2, 2018
 
-Windows 10, 64-bit.
-R 3.5.0, RStudio 1.1.383
-Windows subsystem for linux: Ubuntu 16.04.3 LTS
-ImageJ 1.52a, Java 1.8.0_66 (64-bit)
-PIV plugin: https://sites.google.com/site/qingzongtseng/piv
+* Windows 10, 64-bit.
+* R 3.5.0, RStudio 1.1.383
+* Windows subsystem for linux: Ubuntu 16.04.3 LTS
+* ImageJ 1.52a, Java 1.8.0_66 (64-bit)
+* PIV plugin: https://sites.google.com/site/qingzongtseng/piv
 
 # Overview
 
